@@ -23,13 +23,6 @@ const useStyles = makeStyles({
     border: "1px solid #EAECF0",
     fontFamily: "IBMPlexRegular",
   },
-  btn: {
-    textTransform: "none",
-    color: "#344054",
-    backgroundColor: "white",
-    border: "1px solid #D0D5DD",
-    borderRadius: "8px",
-  },
   typo: {
     fontStyle: "normal",
     fontWeight: 60,
@@ -79,11 +72,12 @@ const Home = () => {
         </Stack>
         <Divider sx={{ backgroundColor: "#EAECF0" }} />
         <Grid container spacing={2} justifyContent="center" marginTop="5px">
-        {isLoading && [...Array(8)].map((item, idx) =>(
-          <Grid item xs={12} md={3} key={idx}>
-              <Loader />
-          </Grid>
-        ))}
+          {isLoading &&
+            [...Array(8)].map((item, idx) => (
+              <Grid item xs={12} md={3} key={idx}>
+                <Loader />
+              </Grid>
+            ))}
           {data &&
             data?.data.map((product, idx) => (
               <Grid item xs={12} md={3} key={idx}>

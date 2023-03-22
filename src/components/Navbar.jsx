@@ -12,21 +12,16 @@ const useStyles = makeStyles({
     margin: "1px",
     fontFamily: "IBMPlexSemiBold",
   },
-  appBar: {
-    color: "black",
-    backgroundColor: "white",
-    padding: '5px'
-  },
 });
 
 const NavBar = () => {
   const classes = useStyles();
   return (
-    <Box sx={{ flexGrow: 1, padding: '15px' }}>
+    <Box sx={{ flexGrow: 1, padding: "15px" }}>
       <AppBar
         elevation={0}
         position="static"
-        sx={{ color: "black", backgroundColor: "white", marginBottom: '10px'}}
+        sx={{ color: "black", backgroundColor: "white", marginBottom: "10px" }}
       >
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>

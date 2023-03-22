@@ -27,23 +27,45 @@ const useStyles = makeStyles({
     position: "absolute",
     top: 150,
     left: 15,
-    "@media(max-width:900px)":{
-      display: 'none'
+    "@media(max-width:900px)": {
+      display: "none",
     },
   },
-  countDownWrapper:{
+  countDownWrapper: {
     marginLeft: "13rem",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    "@media(max-width:900px)":{
+    "@media(max-width:900px)": {
       marginLeft: 0,
-      display: 'block'
-    }
+      display: "block",
+    },
   },
   countdown: {
     fontFamily: "IBMPlexSemiBold",
     marginBottom: "5px",
+  },
+  flexBox: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "15px",
+  },
+  liveWrapper: {
+    backgroundColor: "#FFFAEB",
+    width: "80px",
+    display: "flex",
+    justifyContent: "space-around",
+    alignItems: "center",
+    height: "15px",
+    padding: "5px",
+    borderRadius: "5px",
+    marginRight: "10px",
+  },
+  dotBox: {
+    height: "6px",
+    width: "6px",
+    borderRadius: "50%",
+    backgroundColor: "#F79009",
   },
 });
 
@@ -55,40 +77,14 @@ const CountDown = () => {
         <img src={image} alt="" className={classes.img} />
         <Box>
           <img src={logo} alt="" className={classes.logo} />
-          <Box className={classes.countDownWrapper}
-          >
+          <Box className={classes.countDownWrapper}>
             <Box>
               <p className={classes.countdown}>
                 Starts in: 3 days : 2 hours : 24 minutes{" "}
               </p>
-              <Box
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  marginBottom: "15px",
-                }}
-              >
-                <Box
-                  sx={{
-                    backgroundColor: "#FFFAEB",
-                    width: "80px",
-                    display: "flex",
-                    justifyContent: "space-around",
-                    alignItems: "center",
-                    height: "15px",
-                    padding: "5px",
-                    borderRadius: "5px",
-                    marginRight: "10px",
-                  }}
-                >
-                  <Box
-                    sx={{
-                      height: "6px",
-                      width: "6px",
-                      borderRadius: "50%",
-                      backgroundColor: "#F79009",
-                    }}
-                  />
+              <Box className={classes.flexBox}>
+                <Box className={classes.liveWrapper}>
+                  <Box className={classes.dotBox} />
                   <span> Not Live</span>
                 </Box>
                 <span>Layers Auction</span>
