@@ -51,8 +51,9 @@ const useStyles = makeStyles({
   }
 });
 
-const AuctionCard = ({ name, title, bid, image }) => {
+const AuctionCard = ({ product }) => {
   const classes = useStyles();
+  const { name, title, bid, image } = product
   const initials = name
     ?.split(" ")
     .map((n) => n[0])

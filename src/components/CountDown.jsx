@@ -27,16 +27,16 @@ const useStyles = makeStyles({
     position: "absolute",
     top: 150,
     left: 15,
-    "@media(max-width:800px)":{
+    "@media(max-width:900px)":{
       display: 'none'
-    }
+    },
   },
   countDownWrapper:{
     marginLeft: "13rem",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    "@media(max-width:800px)":{
+    "@media(max-width:900px)":{
       marginLeft: 0,
       display: 'block'
     }
