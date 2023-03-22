@@ -57,9 +57,9 @@ const AuctionCard = ({ product }) => {
   const initials = name
     ?.split(" ")
     .map((n) => n[0])
-    .join(".");
+    .join("");
   return (
-    <Card elevation={0} className={classes.card}>
+    <Card elevation={0} className={classes.card} data-testid="auction-card">
       <Box className={classes.box}>
         <img src={image} alt="" width="95%" />
       </Box>
@@ -70,14 +70,20 @@ const AuctionCard = ({ product }) => {
           spacing={1}
           paddingBottom="5px"
         >
-          <Avatar sx={{ width: 24, height: 24 }} className={classes.avatar}>
+          <Avatar
+            data-testid="name-avatar"
+            sx={{ width: 24, height: 24 }}
+            className={classes.avatar}
+          >
             {initials}
           </Avatar>
           <p className={classes.name}>
             {name} <span className={classes.nameSpan}>(Highest Bidder)</span>
           </p>
         </Stack>
-        <p className={classes.title}>{title}</p>
+        <p data-testid="auction-title" className={classes.title}>
+          {title}
+        </p>
         <p className={classes.bid}>
           Current Bid: <span className={classes.title}>{bid}</span>
         </p>

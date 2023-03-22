@@ -1,0 +1,834 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1tbrwvn"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-1kdd8jn-MuiPaper-root-MuiAppBar-root"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+      >
+        <div
+          class="MuiBox-root css-i9gxme"
+        >
+          <p
+            class="makeStyles-header-35"
+          >
+            Welcome
+          </p>
+          <span>
+            Your current sales auction and activity.
+          </span>
+        </div>
+        <span
+          class="MuiBadge-root css-1c32n2y-MuiBadge-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="NotificationsOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"
+            />
+          </svg>
+          <span
+            class="MuiBadge-badge MuiBadge-standard MuiBadge-anchorOriginBottomRight MuiBadge-anchorOriginBottomRightRectangular MuiBadge-overlapRectangular MuiBadge-colorError css-ujyhhw-MuiBadge-badge"
+          >
+            2
+          </span>
+        </span>
+      </div>
+    </header>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+    />
+  </div>
+  <div
+    class="makeStyles-wrapper-36 MuiBox-root css-0"
+    data-testid="countdown"
+  >
+    <div
+      class="makeStyles-innerBox-37 MuiBox-root css-0"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-38"
+        src="Image.png"
+      />
+      <div
+        class="MuiBox-root css-0"
+      >
+        <img
+          alt=""
+          class="makeStyles-logo-39"
+          src="Avatarphoto.png"
+        />
+        <div
+          class="makeStyles-countDownWrapper-40 MuiBox-root css-0"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="makeStyles-countdown-41"
+            >
+              Starts in: 3 days : 2 hours : 24 minutes
+               
+            </p>
+            <div
+              class="makeStyles-flexBox-42 MuiBox-root css-0"
+            >
+              <div
+                class="makeStyles-liveWrapper-43 MuiBox-root css-0"
+              >
+                <div
+                  class="makeStyles-dotBox-44 MuiBox-root css-0"
+                />
+                <span>
+                   Not Live
+                </span>
+              </div>
+              <span>
+                Layers Auction
+              </span>
+            </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-disableElevation css-1y4a2p3-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeSmall css-y6rp3m-MuiButton-startIcon"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ThumbUpAltOutlinedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21 8h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2c0-1.1-.9-2-2-2zm0 4-3 7H9V9l4.34-4.34L12.23 10H21v2zM1 9h4v12H1z"
+                />
+              </svg>
+            </span>
+            Accept Invite
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="makeStyles-wrapper-33 MuiBox-root css-0"
+  >
+    <div
+      class="MuiStack-root css-1goc8b4-MuiStack-root"
+    >
+      <p
+        class="makeStyles-typo-34"
+      >
+        Featured Items
+      </p>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-disableElevation css-1y4a2p3-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        View Auction
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <hr
+      class="MuiDivider-root MuiDivider-fullWidth css-8f17bi-MuiDivider-root"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-quseuk-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="3w84nim-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="3w84nim-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#3w84nim-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#3w84nim-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="3w84nim-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="3w84nim-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="7fft61k-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="7fft61k-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#7fft61k-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#7fft61k-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="7fft61k-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="7fft61k-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="tdue1pe-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="tdue1pe-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#tdue1pe-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#tdue1pe-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="tdue1pe-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="tdue1pe-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="s4e9gf9-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="s4e9gf9-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#s4e9gf9-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#s4e9gf9-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="s4e9gf9-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="s4e9gf9-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="6m6x7r-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="6m6x7r-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#6m6x7r-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#6m6x7r-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="6m6x7r-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="6m6x7r-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="cemp8yo-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="cemp8yo-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#cemp8yo-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#cemp8yo-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="cemp8yo-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="cemp8yo-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="jouj2ue-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="jouj2ue-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#jouj2ue-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#jouj2ue-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="jouj2ue-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="jouj2ue-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+        data-testid="loading-card"
+      >
+        <svg
+          aria-labelledby="gnqi2lj-aria"
+          height="550"
+          role="img"
+          viewBox="0 0 300 550"
+          width="300"
+        >
+          <title
+            id="gnqi2lj-aria"
+          >
+            Loading...
+          </title>
+          <rect
+            clip-path="url(#gnqi2lj-diff)"
+            height="100%"
+            role="presentation"
+            style="fill: url(#gnqi2lj-animated-diff);"
+            width="100%"
+            x="0"
+            y="0"
+          />
+          <defs>
+            <clippath
+              id="gnqi2lj-diff"
+            >
+              <rect
+                height="550"
+                rx="10"
+                ry="10"
+                width="300"
+                x="1"
+                y="0"
+              />
+            </clippath>
+            <lineargradient
+              id="gnqi2lj-animated-diff"
+            >
+              <stop
+                offset="0%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-2; -2; 1"
+                />
+              </stop>
+              <stop
+                offset="50%"
+                stop-color="#ecebeb"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="-1; -1; 2"
+                />
+              </stop>
+              <stop
+                offset="100%"
+                stop-color="#f3f3f3"
+                stop-opacity="1"
+              >
+                <animate
+                  attributeName="offset"
+                  dur="2s"
+                  keyTimes="0; 0.25; 1"
+                  repeatCount="indefinite"
+                  values="0; 0; 3"
+                />
+              </stop>
+            </lineargradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

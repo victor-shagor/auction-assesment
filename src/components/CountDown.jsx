@@ -72,7 +72,7 @@ const useStyles = makeStyles({
 const CountDown = () => {
   const classes = useStyles();
   return (
-    <Box className={classes.wrapper}>
+    <Box className={classes.wrapper} data-testid="countdown">
       <Box className={classes.innerBox}>
         <img src={image} alt="" className={classes.img} />
         <Box>
@@ -100,6 +100,9 @@ const CountDown = () => {
                 backgroundColor: "white",
                 border: "1px solid #D0D5DD",
                 borderRadius: "8px",
+                ":hover": {
+                  backgroundColor: "white",
+                },
               }}
               startIcon={<ThumbsIcon />}
             >

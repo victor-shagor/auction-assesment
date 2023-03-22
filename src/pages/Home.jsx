@@ -35,14 +35,6 @@ const Home = () => {
   const classes = useStyles();
   const { data, error, isLoading } = useGetAuctionProductsQuery();
 
-  if (error)
-    return (
-      <Alert severity="error">
-        <AlertTitle>Error</AlertTitle>
-        Something went wrong, try again later
-      </Alert>
-    );
-
   return (
     <>
       <NavBar />
@@ -65,16 +57,25 @@ const Home = () => {
               backgroundColor: "white",
               border: "1px solid #D0D5DD",
               borderRadius: "8px",
+              ":hover": {
+                backgroundColor: "white",
+              },
             }}
           >
             View Auction
           </Button>
         </Stack>
         <Divider sx={{ backgroundColor: "#EAECF0" }} />
+        {error && (
+          <Alert severity="error">
+            <AlertTitle>Error</AlertTitle>
+            Something went wrong, try again later
+          </Alert>
+        )}
         <Grid container spacing={2} justifyContent="center" marginTop="5px">
           {isLoading &&
             [...Array(8)].map((item, idx) => (
-              <Grid item xs={12} md={3} key={idx}>
+              <Grid item xs={12} md={3} key={idx} data-testid="loading-card">
                 <Loader />
               </Grid>
             ))}
