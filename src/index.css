@@ -1,13 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'IBMPlexRegular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@font-face {
+  font-family: 'IBMPlexRegular';
+  src: local('IBMPlexRegular'), url(./assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: 'IBMPlexSemiBold';
+  src: local('IBMPlexSemiBold'), url(./assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf) format("truetype");
+}
+
