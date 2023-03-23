@@ -60,6 +60,7 @@ const useStyles = makeStyles({
     padding: "5px",
     borderRadius: "5px",
     marginRight: "10px",
+    color: "#B54708"
   },
   dotBox: {
     height: "6px",
